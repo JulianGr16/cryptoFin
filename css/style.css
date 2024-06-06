@@ -1,0 +1,39 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.nombre-empresa-nav{
+    font-family: "black Han Sans", sans-serif;
+    font-weight: 400;
+}
+
+.h1-sn{
+    font-family:"black Han Sans", sans-serif ;
+    font-weight: 900;
+}
+
+.imagenes-carrusel{
+    height: 400px;
+    object-fit: cover;
+    object-position: 55% 20%;
+}
+
+@media all and (min-widht: 992px){
+    .imagenes-carrusel{
+        height: 400px;
+        
+    }
+}
