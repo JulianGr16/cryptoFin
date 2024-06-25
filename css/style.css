@@ -31,6 +31,10 @@ main{
     object-position: 55% 20%;
 }
 
+textarea{
+    resize: none;
+}
+
 @media all and (min-widht: 992px){
     .imagenes-carrusel{
         height: 400px;
