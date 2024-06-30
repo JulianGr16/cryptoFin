@@ -20,9 +20,25 @@ main{
     font-weight: 400;
 }
 
+.nombre-empresa-foot{
+    font-family: "black Han Sans", sans-serif;
+    font-weight: 200;
+}
+
+li a{
+    text-decoration: none;
+    color: grey
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    right: 2rem;
+}
+
 .h1-sn{
     font-family:"black Han Sans", sans-serif ;
-    font-weight: 900;
+    font-weight: 300;
 }
 
 .imagenes-carrusel{
